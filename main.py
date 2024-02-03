@@ -28,30 +28,6 @@ def parse_month(month):
     else:
         return "12"
     
-'''def parse_day(day):
-    day = int(day)
-    if day == 1:
-        return "01"
-    elif day == 2:
-        return "02"
-    elif day == 3:
-        return "03"
-    elif day == 4:
-        return "04"
-    elif day == 5:
-        return "05"
-    elif day == 6:
-        return "06"
-    elif day == 7:
-        return "07"
-    elif day == 8:
-        return "08"
-    elif day == 9:
-        return "09"
-    else:
-        return str(day)'''
-    
-    
 
 #REMOVE PASS AND FIX THIS FUNCTION
 #parse_date function should return the date formated as MM/DD/YYYY
