@@ -43,7 +43,6 @@ def parse_date(user_string):
         print(f'{parsed_month}/{list[1]}/{list[2]}')
     else: print(f'{parsed_month}/0{list[1]}/{list[2]}')
     
-
 #REMOVE PASS AND YOUR CODE GOES HERE
 if __name__ == '__main__':
     date = input
