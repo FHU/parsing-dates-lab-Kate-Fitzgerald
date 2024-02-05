@@ -39,7 +39,7 @@ def parse_date(user_string):
         list.append(i)
     parsed_month = parse_month(list[0])
 
-    if int(list[1]) > 10:
+    if int(list[1]) >= 10:
         return (f'{parsed_month}/{list[1]}/{list[2]}')
     else: return (f'{parsed_month}/0{list[1]}/{list[2]}')
     
