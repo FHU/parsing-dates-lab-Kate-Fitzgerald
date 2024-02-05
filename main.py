@@ -46,7 +46,7 @@ def parse_date(user_string):
 #REMOVE PASS AND YOUR CODE GOES HERE
 if __name__ == '__main__':
     date = input()
-    if input != -1:
+    if date != -1:
         print(parse_date(date))
     else:
         print("nope")
